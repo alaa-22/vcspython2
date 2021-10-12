@@ -1,7 +1,23 @@
  git init
+ 
  git add .
+ 
  git commit -m "alaa"
+ 
  git remote add origin git@github.com:alaa-22/vcspython2.git
+ 
  git push origin master
+ 
  git branch dev
+ 
  git branch test
+ 
+ git checkout test
+ 
+ git push origin test
+
+ touch filewithcommand  delete branch commands
+ git checkout dev
+ git add .
+ git commit -m "devbranch"
+ git push origin dev
